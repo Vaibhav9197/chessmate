@@ -10,8 +10,7 @@ engine = chess.engine.SimpleEngine.popen_uci(STOCKFISH_PATH)
 # Create a new chess board
 board = chess.Board()
 
-# Ask Sgit init
-# tockfish for the best move in 1 second search time
+# Ask Stockfish for the best move in 1 second search time
 result = engine.play(board, chess.engine.Limit(time=1.0))
 
 print("Best move from Stockfish:", result.move)

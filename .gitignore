@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Data & docs from python-chess
+python-chess-master/data/
+python-chess-master/docs/
+python-chess-master/examples/
+python-chess-master/fuzz/
+python-chess-master/python-chess-stub/
+
+# Stockfish binaries (if you want to exclude them)
+*.exe
+# OS generated files
+.DS_Store
+Thumbs.db
